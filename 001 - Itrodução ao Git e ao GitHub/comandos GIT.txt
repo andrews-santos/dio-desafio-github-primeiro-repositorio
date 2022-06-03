@@ -1,0 +1,73 @@
+openssl sha1 hello.txt
+
+Cria o ID (código de identificação) de 40 caracteres
+b4ab0a65296fb314c2634ec806d6768b802a628a
+
+Se acrescentar algo dentro do arquivo ele gera outro codigo hash
+c5a711bf50152eec1089719ad1446a1bb5f07adf
+
+
+
+Se voltar como estava ele mantem o primeiro HASH
+b4ab0a65296fb314c2634ec806d6768b802a628a
+
+
+==========================================================================
+git config --list   ->mostra as configurações do gir (inclusive email e name)
+
+- git init
+- git add
+- git commit
+
+Criar um repositório:
+
+mkdir livro-receitas
+
+entrar na pasta livro-receitas e dar o seguinte comando para que o git inicialize neste diretório.
+
+git init
+
+e configurar um name e um email:
+
+git config --global user.email "abc@123.com"
+
+git config --global user.name "username" 
+
+para desfazer: git config --global --unset user.name ou user.email
+=========procedimento para dar commit==========
+git status  listará os arquivos
+git add *   (enter)
+git add nome do arquivo
+git commit -m "commit inicial"
+
+
+==================================================
+
+=========procedimento para apontar um repositório local para o github==========
+Após criar o repositório no github:
+1º
+git remote add origin https://github.com/********************/livro-receitas.git --> informar o link do repositório do github 
+
+obs: git remote -v  -->mostrará a lista de repositórios do github cadastrados no git
+
+2º
+git push origin master  --> dar enters
+
+====================================================
+
+atualizar o workspace quando o que estiver no github difere do workspace
+
+git pull origin master
+
+======================================================
+
+Baixar um Repositório do github para a máquina local:
+copiar o link no github
+abrir o git bash
+
+digitar git clone e colar o link a frente
+
+========================================================
+
+
+

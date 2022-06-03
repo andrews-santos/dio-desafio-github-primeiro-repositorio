@@ -1,0 +1,19 @@
+DIR  -> mostra os diretorios
+CD (Change diretory) -> leva ao diretorio
+CD ..  -> retrocede (volta) um nível do diretorio
+
+cls  (Clear Screan) -> limpa o console 
+
+Tecla TAB -> completa um termo um termo  exemplo CD W ao clicar TAB ele completa para CD Windows
+
+mkdir -> cria  pasta (mkdir workspace "cria uma pasta chamada workspace")
+
+echo -> imprime um texto no terminal
+
+> --> redirecionador do sistema  (echo hello> hello.txt) o sistema cria um arquivo txt com nome hello no diretório posicionado.
+
+del -> deleta tudo que está dentro do diretório (del temp) deletará tudo dentro de temp
+
+rmdir -> deleta o repositorio  (rmdir temp /S /Q  deletará a pasta temp)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ) 
