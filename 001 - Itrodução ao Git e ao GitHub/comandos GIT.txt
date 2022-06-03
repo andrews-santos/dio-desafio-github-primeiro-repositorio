@@ -51,7 +51,9 @@ git remote add origin https://github.com/********************/livro-receitas.git
 obs: git remote -v  -->mostrará a lista de repositórios do github cadastrados no git
 
 2º
-git push origin master  --> dar enters
+git push origin master  --> dar enter
+
+git push origin main  --> dar enter
 
 ====================================================
 
