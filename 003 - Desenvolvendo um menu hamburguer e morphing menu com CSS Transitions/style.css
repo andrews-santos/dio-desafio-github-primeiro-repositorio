@@ -231,7 +231,20 @@ a:hover {
     color: rgb(109, 109, 109);
 }
 
+
+
 /*animação*/
+
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
 
 .card-wrapper::before{
 	content:''; /*vazio*/
@@ -266,10 +279,17 @@ a:hover {
 }
     
 .card:hover > .card-wrapper::before {
-    opacity: 1;
-    width:350px;
     height: 250px;
+    width:350px;
+    opacity: 1;
 }
+
+.card:hover > .card-wrapper p {
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .container{
     width: 100%;
@@ -292,7 +312,7 @@ a:hover {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0 0;
-    background-image: url('./stairs.jpg');
+    background-image: url('./room.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,4 +323,51 @@ a:hover {
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
-} /*10 03:21*/
+} 
+
+.footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E1C2B;
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 800px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .container .card-container:nth-child(1),
+    .container .card-container:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        height: 250px;
+        width: 250px;
+    }
+
+    .card-text {
+        width: 90%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .card:hover > .card-wrapper::before {
+        height: 190px;
+        width: 190px;
+    }
+}
