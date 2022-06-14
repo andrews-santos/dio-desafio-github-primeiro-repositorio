@@ -25,6 +25,12 @@ button {
     text-align: center;
 }
 
+.btn:hover { 
+    background-color: white;
+    opacity: 1;
+    visibility: visible;
+}
+
 #counter {
     display: flex;
 }
