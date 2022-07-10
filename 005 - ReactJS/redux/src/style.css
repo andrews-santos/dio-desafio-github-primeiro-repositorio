@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(18, 15, 39);
+    color: white;
+}
+
+.btn {
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    align-content:space-between;
+    justify-content: space-between;
+}
+
+.btn:hover { 
+    background-color: #4d9bdf;
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn-counter {
+
+
+    color: #ffffff;
+    background-color: #428bca;
+    border:#357ebd;
+    padding: 5px 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+    height: 30px;
+    width: 100%;
+
+}
+
+#btn-counter:hover { 
+    background-color: #4d9bdf;
+    opacity: 1;
+    visibility: visible;
+}
+
+.number {
+    display: flex;
+    color: rgb(167, 33, 78);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+ span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 249, 255);
+    font-size: 12px;
+}
+
+
+
+#counter {
+    display: flex;
+    align-content:space-between;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+#sider {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    /*position: absolute;*/
+    left:10px;
+    top: 0%;
+    /*margin: 0 20px;*/
+
+    /*align-content: flex-start;*/
+}
+
+.sider{
+    background-color: rgb(172, 169, 31);
+    position: absolute;
+    left:10px;
+    top: 10px;
+    height:100vh;
+    max-height: 600px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+/* responsivo
+@media (max-height: 190px) {
+    .sider {
+      background-color: lightblue;
+    }
+  }
+*/  
